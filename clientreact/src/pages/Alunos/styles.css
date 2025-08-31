@@ -62,6 +62,7 @@
 }
 
 .aluno-container h1{
+    text-align: center;
     margin-top: 20px;
     margin-bottom: 24px;
 }
@@ -76,6 +77,7 @@
 
 .aluno-container ul li{
     background: #ffffff;
+    border: solid 1px #333333;
     padding: 10px;
     border: solid #737380;
     border-radius: 10px;
