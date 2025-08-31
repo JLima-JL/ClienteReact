@@ -2,6 +2,7 @@ import React from "react";
 import { createBrowserRouter, RouterProvider} from 'react-router-dom';
 import Login from './pages/Login';
 import Alunos from'./pages/Alunos';
+import NovoAluno from "./pages/NovoAluno";
 
 const router = createBrowserRouter([
     {   path: "/",
@@ -10,6 +11,10 @@ const router = createBrowserRouter([
     {
         path:'/alunos',
         element:<Alunos/>
+    },
+    {
+        path:'alunos/aluno/novo/:alunoId',
+        element:<NovoAluno/>
     }
 ]);
 
